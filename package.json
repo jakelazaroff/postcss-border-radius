@@ -1,0 +1,29 @@
+{
+  "name": "postcss-border-radius",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for border-radius shorthand",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "border-radius",
+    "shorthand"
+  ],
+  "author": "Jake Lazaroff <yo@jake.nyc>",
+  "license": "MIT",
+  "repository": "jakelazaroff/postcss-border-radius",
+  "bugs": {
+    "url": "https://github.com/jakelazaroff/postcss-border-radius/issues"
+  },
+  "homepage": "https://github.com/jakelazaroff/postcss-border-radius",
+  "dependencies": {
+    "postcss": "^5.0.10"
+  },
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "eslint": "^1.10.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  }
+}
